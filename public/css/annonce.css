@@ -1,0 +1,52 @@
+.display{
+    display: flex;
+}
+
+.justifybetween{
+    justify-content: space-around;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.border{
+    border: 1px solid rgb(190, 142, 96);
+    border-radius: 0em 2em 2em 0em;
+}
+
+.border1{
+    border: 1px solid rgb(190, 142, 96);
+    border-radius: 0em 2em 0em 0em;
+    background-color: rgb(190, 142, 96) ;
+}
+
+h3{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+h4{
+    font-size: 2em;
+    color: rgb(174, 187, 215);
+    text-align: center;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+h5{
+    font-size: 1em;
+    color: rgb(190, 142, 96);
+    text-align: center;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+p{
+    margin: 0 auto;
+    width: 20em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+}

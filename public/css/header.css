@@ -1,0 +1,36 @@
+body{
+    margin:0em;
+}
+
+.fond{
+    background-color: rgb(190, 142, 96);
+}
+
+.fond img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.fond1{
+    background-image: url(../img/fond.jpg);
+    height: 30em;
+}
+
+h1{
+    margin: 0em;
+    padding-top: 2em;
+    text-align:center;
+    color: white;
+    font-size: 5em
+}
+
+h2{
+
+    text-align:center;
+    color: white;
+    font-size: 2em
+}

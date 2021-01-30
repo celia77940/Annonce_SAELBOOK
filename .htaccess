@@ -1,0 +1,15 @@
+# on active le moteur de réécriture
+RewriteEngine On
+
+# on active les conditions
+
+# nous empèche d'aller sur un fichier !-f 
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# nous empèche d'aller sur un dossier !-d
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# on active les règles de réécriture
+# ce que l'on tape dans l'url sera égale à index.php?url= le texte tapé dans l'url
+RewriteRule ^(.*)$ index.php?url=$1
+
